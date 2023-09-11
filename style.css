@@ -1,0 +1,151 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+.header,
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  padding:40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.header {
+    height: 75px;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.intro {
+    background-color: #1F2937;
+    gap: 12px;
+    padding:90px;
+    gap:16px;
+}
+
+.intro-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    flex:1;
+}
+.container.intro img {
+    height: 200px;
+    width: 400px;
+    flex: 1;
+}
+
+.container.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:40px;
+    gap:20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 150px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.main-text {
+    font-size: 36px;
+    font-weight:700;
+    color: #F9FaF8;  
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding:100px;
+    gap:12px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.mini-header {
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.container.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding:50px;
+    margin:100px;
+    border-radius: 8px;
+}
+
+button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 10px;
+    color: #E5E7EB;
+    width: 80px;
+    height:30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container.cta button{
+    border: 2px solid #E5E7EB;
+}
+
+.cta-text .mini-header {
+    color: #E5E7EB;
+}
